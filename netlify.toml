@@ -1,0 +1,3 @@
+# Netlify serves ONLY the frontend/ folder. The Python pipeline runs on the backend host (see backend/).
+[build]
+  publish = "frontend"
